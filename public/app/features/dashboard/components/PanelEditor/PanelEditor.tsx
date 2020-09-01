@@ -238,7 +238,7 @@ export class PanelEditorUnconnected extends PureComponent<Props> {
             {!uiState.isPanelOptionsVisible && (
               <DashNavButton
                 onClick={this.onTogglePanelOptions}
-                tooltip="Open options pane"
+                tooltip="Open options panel"
                 classSuffix="close-options"
               >
                 <Icon name="angle-left" /> <span style={{ paddingLeft: '6px' }}>Show options</span>
